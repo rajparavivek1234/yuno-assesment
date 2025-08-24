@@ -1,0 +1,70 @@
+Payment Processing Results
+------------------------
+
+Payment Request #1:
+  Amount: 100.00 USD
+  Provider: ProviderA
+  Status: Success
+  Payment ID: TXN-DEMO-100
+  Payment Status: APPROVED
+
+Payment Request #2:
+  Amount: 50.75 EUR
+  Provider: ProviderB
+  Status: Success
+  Payment ID: PAY-DEMO-50
+  Payment Status: APPROVED
+
+Payment Request #3:
+  Amount: 200.00 GBP
+  Provider: ProviderA
+  Status: Success
+  Payment ID: TXN-DEMO-200
+  Payment Status: APPROVED
+
+Payment Request #4:
+  Amount: -50.00 USD
+  Provider: ProviderB
+  Status: Failed
+  Error: Amount must be greater than 0 (INVALID_AMOUNT)
+
+Payment Request #5:
+  Amount: 15000.00 EUR
+  Provider: ProviderA
+  Status: Failed
+  Error: Amount exceeds maximum limit of 10000 (INVALID_AMOUNT)
+
+Payment Request #6:
+  Amount: 75.50 XXX
+  Provider: ProviderB
+  Status: Success
+  Payment ID: PAY-DEMO-75
+  Payment Status: APPROVED
+
+Payment Request #7:
+  Amount: 100.00 USD
+  Provider: InvalidProvider
+  Status: Failed
+  Error: Provider InvalidProvider not found (PROVIDER_NOT_FOUND)
+
+Payment Request #8:
+  Amount: 125.50 GBP
+  Provider: ProviderB
+  Status: Success
+  Payment ID: PAY-DEMO-125
+  Payment Status: APPROVED
+
+Payment Request #9:
+  Amount: 300.00 EUR
+  Provider: ProviderA
+  Status: Success
+  Payment ID: TXN-DEMO-300
+  Payment Status: APPROVED
+
+Payment Request #10:
+  Amount: 88.99 USD
+  Provider: ProviderB
+  Status: Success
+  Payment ID: PAY-DEMO-88
+  Payment Status: APPROVED
+

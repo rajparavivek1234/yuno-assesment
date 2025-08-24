@@ -1,0 +1,11 @@
+amount,currency,provider
+100.00,USD,ProviderA
+50.75,EUR,ProviderB
+200.00,GBP,ProviderA
+-50.00,USD,ProviderB
+15000.00,EUR,ProviderA
+75.50,XXX,ProviderB
+100.00,USD,InvalidProvider
+125.50,GBP,ProviderB
+300.00,EUR,ProviderA
+88.99,USD,ProviderB
